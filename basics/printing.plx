@@ -1,7 +1,16 @@
 #!/usr/bin/perl
 
+##############################################################
+#  Lesson #   : 1
+#  Title      : Printing
+#  Author     : github.com/oss92
+#  Date       : 07/05/2015
+#  Description: Examples for different perl ways of printing
+##############################################################
+
 # Log warnings
 use warnings;
+print "=========== Output start ===========\n";
 
 # Print an example message, notice unicode support
 print "Hello, world! \x{2665} \n";
