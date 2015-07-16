@@ -30,7 +30,6 @@ print '"Awesome!," I said unknowingly.', "\n";
 
 
 
-
 ## c.Quote-like operators
 print qq/'"Hi," said Jack. "Have you read Slashdot today?"'\n/; # acts like double-quoted
 print q/'"Hi," said Jack. "Have you read Slashdot today?"'\n/; # acts like single-quoted
@@ -48,7 +47,7 @@ print qq~'"Hi, I am using a wave as a delimiter," He said.'\n~;
 
 
 ## d.Here-Documents
-# Label must follow after the arrows with no spaces (Here our label is EOF)
+### Label must follow after the arrows with no spaces (Here our label is EOF)
 print<<EOF;
 
 This is a here-document. It starts on the line after the two arrows,
@@ -56,8 +55,8 @@ and it ends when the text following the arrows is found at the beginning of a li
 
 EOF
 
-# A here-document works like a double-quoted string by default.
-# Surround the label with single quotes in order for it to work like a single-quoted string
+### A here-document works like a double-quoted string by default.
+### Surround the label with single quotes in order for it to work like a single-quoted string
 
 print<<'brk';
 
